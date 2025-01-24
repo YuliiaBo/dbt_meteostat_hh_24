@@ -22,5 +22,4 @@ WITH daily_raw AS (
                 (json_data->>'tsun')::INTEGER AS sun_minutes
         FROM daily_raw
     ) 
-SELECT * 
-FROM daily_flattened
+SE
